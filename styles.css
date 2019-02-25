@@ -1,3 +1,6 @@
+body {
+    background-color: #eee;
+}
 nav {
   width: 100%;
   height: auto;
@@ -15,6 +18,8 @@ nav {
   background-color: blue;
   color: white;
   border: 1px solid black;
+  padding: 10px;
+  border-radius: 8px;
 }
 header {
   text-align: center;
@@ -41,6 +46,8 @@ header a {
   width: 380px;
   margin: 0 auto 50px auto;
   clear: both;
+  border-radius: 2px;
+  background-color: #fff;
 }
 form * {
   display: block;
@@ -54,6 +61,8 @@ form label {
 form input {
   padding: 5px 0 5px 0;
   width: 300px;
+  border-radius: 2px;
+  border: 1px solid #aaa;
 }
 form span {
   font-size: 12px;
@@ -64,8 +73,14 @@ form button {
   background-color: blue;
   color: #fff;
   border: 1px solid #000;
+  border-radius: 8px;
   padding: 10px;
   margin-top: 20px;
+}
+#legal-notice {
+    width: 380px;
+    padding: 10px 30px;
+    box-sizing: border-box;
 }
 .form-footer {
   background-color: #eee;
@@ -80,7 +95,11 @@ a {
 }
 footer {
   clear: both;
+  font-size: 14px;
+  text-align: center;
 }
 .footer-container {
   text-align: center;
+  width: 500px;
+  margin: 0 auto;
 }
