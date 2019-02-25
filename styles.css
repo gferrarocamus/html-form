@@ -18,8 +18,22 @@ nav {
 }
 header {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 80px;
   clear: both;
+}
+#headerBrands {
+  width: 380px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+header img {
+  height: 20px;
+  width: 20px;
+}
+header a {
+  margin: 0 4px 0 4px;
 }
 .form-container {
   border: 1px solid #333;
