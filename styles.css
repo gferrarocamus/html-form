@@ -1,0 +1,36 @@
+nav {
+    width:100%;
+    height: auto;
+}
+.navbar-container {
+    float:right;
+    width: 300px;
+    display: flex;
+    text-align: right;
+}
+.navbar-button {    
+    margin: auto;
+}
+.navbar-button button {
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+}
+.form-container {
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+form {
+    width: 380px;
+    margin: auto;
+}
+header a {
+    text-decoration: none;
+}
+footer {
+    clear: both;
+}
+.footer-container {
+    text-align: center;
+}
