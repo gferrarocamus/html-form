@@ -1,14 +1,80 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
-    <script src="main.js"></script>
-</head>
-<body>
-    
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HTML Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <div class="navbar-container">
+        <div class="navbar-text">
+          <div>Already have an Intuit account?</div>
+          <a href="#">I forgot my User ID or Password</a>
+        </div>
+        <div class="navbar-button"><button>Sign In</button></div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+      <img class="main-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Intuit_Logo.svg/2000px-Intuit_Logo.svg.png" alt="INTUIT logo">
+      <div id="headerBrands">
+        <img class="logos" src="./assets/mint.svg" alt="mint" /> <a href="#">mint</a>
+        <img class="logos" src="./assets/qb.svg" alt="quickbooks" />
+        <a href="#">quickbook</a> <img class="logos" src="./assets/tt.svg" alt="turbotax" />
+        <a href="#">turbotax</a>
+      </div>
+    </header>
+
+    <!-- FORM BODY -->
+    <div class="form-container">
+      <h2>One Account.<br />Everything Intuit.</h2>
+      <h3>
+        Create an account for all of Intuit's products including Mint.
+        <a href="#">Learn more</a>
+      </h3>
+      <form>
+        <label for="email">Email address</label>
+        <input type="email" name="email" id="email" required />
+        <label for="phone">Phone (recommended)</label>
+        <input type="number" name="phone" id="phone" />
+        <span>Standard call, messaging or data rates may apply.</span>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required />
+        <button type="submit" name="button">Create Account</button>
+      </form>
+
+      <p id="legal-notice">
+        <em
+          >By clicking Create Account, you agree to our
+          <a href="#">License Agreement</a> and have read and acknowledge our
+          <a href="#">Privacy Statement</a>.</em
+        >
+      </p>
+
+      <div class="form-footer">
+        <div>
+          Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+          <a href="">Terms of Use</a>.
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <a href="#">Legal</a> <a href="#">Privacy</a> <a href="#">Security</a>
+        <p>
+          © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+          TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+          Terms and conditions, features, support, pricing, and service options
+          subject to change without notice.
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
