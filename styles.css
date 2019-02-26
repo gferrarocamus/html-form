@@ -33,7 +33,12 @@ header {
   justify-content: center;
   margin-bottom: 20px;
 }
-header img {
+header > img {
+  width: 130px;
+  height: auto;
+  padding-bottom: 10px;
+}
+#headerBrands img {
   height: 20px;
   width: 20px;
 }
