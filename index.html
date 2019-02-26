@@ -21,11 +21,11 @@
 
     <!-- HEADER -->
     <header>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Intuit_Logo.svg/2000px-Intuit_Logo.svg.png" alt="INTUIT logo">
+      <img class="main-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Intuit_Logo.svg/2000px-Intuit_Logo.svg.png" alt="INTUIT logo">
       <div id="headerBrands">
-        <img src="./assets/mint.svg" alt="mint" /> <a href="#">mint</a>
-        <img src="./assets/qb.svg" alt="quickbooks" />
-        <a href="#">quickbook</a> <img src="./assets/tt.svg" alt="turbotax" />
+        <img class="logos" src="./assets/mint.svg" alt="mint" /> <a href="#">mint</a>
+        <img class="logos" src="./assets/qb.svg" alt="quickbooks" />
+        <a href="#">quickbook</a> <img class="logos" src="./assets/tt.svg" alt="turbotax" />
         <a href="#">turbotax</a>
       </div>
     </header>
@@ -38,14 +38,13 @@
         <a href="#">Learn more</a>
       </h3>
       <form>
-        <label>
-          Email address <input type="email" name="email" required />
-        </label>
-        <label> Phone (recommended) <input type="email" name="email" /> </label>
+        <label for="email">Email address</label>
+        <input type="email" name="email" id="email" required />
+        <label for="phone">Phone (recommended)</label>
+        <input type="number" name="phone" id="phone" />
         <span>Standard call, messaging or data rates may apply.</span>
-        <label>
-          Password <input type="password" name="password" required />
-        </label>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required />
         <button type="submit" name="button">Create Account</button>
       </form>
 

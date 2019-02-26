@@ -33,12 +33,12 @@ header {
   justify-content: center;
   margin-bottom: 20px;
 }
-header > img {
+.main-logo {
   width: 130px;
   height: auto;
   padding-bottom: 10px;
 }
-#headerBrands img {
+.logos {
   height: 20px;
   width: 20px;
 }
@@ -49,10 +49,15 @@ header a {
   border: 1px solid #333;
   text-align: center;
   width: 380px;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 50px;
   clear: both;
   border-radius: 2px;
   background-color: #fff;
+}
+.form-container h3 {
+  font-size: 14px;
+  width: 300px;
+  margin: auto;
 }
 form * {
   display: block;
